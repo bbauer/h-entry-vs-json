@@ -1,0 +1,10 @@
+<h1>Tasks</h1>
+
+<ul>
+  <% @tasks.each do |task| %>
+    <li>
+      <input type="checkbox" name="task" value="<%= task.name %>">
+      <%= task.name %>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,12 @@
+<% @tasks.each do |task| %>
+  <dl class="h-entry">
+    <dt>Name</dt>
+    <dd>
+      <span class="p-name"><%= task.name %></span>
+    </dd>
+    <dt>Description</dt>
+    <dd>
+      <span class="p-summary"><%= task.description %></span>
+    </dd>
+  </dl>
+<% end %>
