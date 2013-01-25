@@ -6,7 +6,6 @@ describe "H-Entry vs JSON App" do
       get '/'
 
       last_response.should be_ok
-      assigns(:tasks).should eq(Task.all)
     end
   end
 
