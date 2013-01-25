@@ -4,7 +4,7 @@ end
 
 ActiveRecord::Base.include_root_in_json = false
 
-set :database, 'postgres://brianbauer@localhost/activerecord_sinatra'
+set :database, 'postgres://brianbauer@localhost/h-entry-vs-json'
 
 class Task < ActiveRecord::Base; end
 
