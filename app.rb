@@ -6,8 +6,7 @@ ActiveRecord::Base.include_root_in_json = false
 
 set :database, 'postgres://brianbauer@localhost/activerecord_sinatra'
 
-class Task < ActiveRecord::Base
-end
+class Task < ActiveRecord::Base; end
 
 get '/' do
   @tasks = Task.all
