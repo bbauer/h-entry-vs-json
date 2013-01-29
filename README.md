@@ -19,3 +19,15 @@ set :database
 ```ruby
 ruby app.rb
 ```
+
+### Data
+
+You can see json data at...
+
+/json/tasks
+
+You can see hentry data at...
+
+/hentry/tasks
+
+Most of all though, you can see what happens...and where at app.rb
