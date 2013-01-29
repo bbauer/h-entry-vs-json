@@ -20,6 +20,14 @@ ruby app.rb
 
 ### Data
 
+You'll need to add some data to your local db. Something like...
+
+```ruby
+25.times do
+  Task.create(name: "Foo", description: "Bar")
+end
+```
+
 You can see json data at...
 
 /json/tasks
