@@ -13,7 +13,6 @@ specifically...
 ```ruby
 set :database
 ```
-line...
 
 ## Run it
 
