@@ -1,5 +1,3 @@
-# OMFG this was a spike...#
-
 ## Create Your DB
 
 Use Postgres...or another DB if you want more work for yourself (like Don).
