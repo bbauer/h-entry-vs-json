@@ -60,5 +60,4 @@ DEPENDENCIES
   pg
   rack-test
   rspec
-  sinatra
   sinatra-activerecord
